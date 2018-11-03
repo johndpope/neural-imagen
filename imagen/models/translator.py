@@ -5,7 +5,7 @@ import torchvision
 
 
 class Translator(torch.nn.Module):
-    """Convert RGB images into an interediate representation suitable for further processing.
+    """Convert RGB images into an intermediate representation suitable for further processing.
     """
 
     def __init__(self, pretrained=True):
